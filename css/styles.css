@@ -1,0 +1,9 @@
+:root{
+    --border-color: black;
+}
+/* class on body to swap colors for dark mode */
+.dark-mode {
+    background-color: black;
+    color: white;
+    --border-color: white;
+  }
