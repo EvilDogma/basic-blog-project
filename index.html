@@ -22,7 +22,31 @@
         <!-- light dark mode selector button -->
         <button class="mode">Toggle Light/Dark Mode</button>
     </header>
-    
+    <main>
+        <!-- leftside logo/ right side form for posts -->
+        <!-- flex with 2 children -->
+        <div class="wrapper">
+            <div class="logo">
+                <img src="assets/will-cats.jpg" alt="Will with some ominous cat doodles in the background">
+            </div>
+            <div class="form">
+                <h2>What's on your mind?</h2>
+                <!-- form -->
+                <form>
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username"><br>
+                    <label for="title">Title:</label><br>
+                    <input type="text" id="title" name="title"><br>
+                    <label for="content">Content:</label><br>
+                    <textarea id="content" name="content" rows="4" cols="50">
+                    </textarea><br>
+                    <input type="submit" id="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </main>
+
+
     <!-- added footer -->
     <footer>
         <p>&copy; 2024</p>
