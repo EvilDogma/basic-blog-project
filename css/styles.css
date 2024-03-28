@@ -1,9 +1,88 @@
-:root{
+/* styling that is shared between the pages */
+:root {
     --border-color: black;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+
+}
+
 /* class on body to swap colors for dark mode */
 .dark-mode {
     background-color: black;
     color: white;
     --border-color: white;
-  }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    /* Ensure body stretches to at least the height of the viewport */
+}
+
+header {
+    display: flex;
+    
+    height: 50px;
+    padding: 5px;
+    border-bottom: 2px solid var(--border-color);
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-top: 2px solid var(--border-color);
+}
+
+.mode {
+    margin-left: auto;
+}
+
+
+main {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main > div {
+    width: 100%;
+}
+.wrapper {
+    height: 100%;
+    width: 100;
+}
+
+.wrapper * {
+    padding: 5px;
+}
+
+.logo {
+    height: 100%;
+    border-right: 2px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+}
+button {
+    padding: 2px 5px;
+}
