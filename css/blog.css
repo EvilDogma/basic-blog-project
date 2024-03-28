@@ -1,0 +1,32 @@
+/* some styling that is specific to the blog page */
+#blog{
+    height: 100%;
+    width: 100;
+    flex:auto;
+    padding: 0 3%;
+}
+.post {
+    width: 100%;
+    margin-top:5px;
+    border: 1px solid var(--border-color);
+}
+.title,
+.content,
+.author {
+    padding:5px;
+    margin-bottom: 5px;
+}
+.title{
+    border-bottom: 2px solid var(--border-color);
+    
+}
+.content{
+    padding:10px;
+    font-style: italic;
+}
+.author {
+    border-top: 2px solid var(--border-color);
+}
+#backButton{
+    margin-left: 20px;
+}
